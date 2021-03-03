@@ -1,0 +1,50 @@
+title: xcodebuild tips
+description: xcodebuild tips
+remote_theme: pmarsceill/just-the-docs
+
+permalink: pretty
+
+exclude:
+  - "CNAME"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "LICENSE.txt"
+  - "README.md"
+  - "start-server.sh"
+
+aux_links:
+  "xcodebuild tips on GitHub":
+    - "https://github.com/victor-pavlychko/xcodebuild-tips"
+
+footer_content: >
+  Copyright &copy; 2021.
+  Distributed by an <a href=\"https://github.com/victor-pavlychko/xcodebuild-tips/tree/master/LICENSE.txt\">MIT license.</a>
+  <script data-goatcounter="https://xcodebuild-tips.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+last_edit_timestamp: true
+last_edit_time_format: "%b %e %Y at %I:%M %p"
+
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/victor-pavlychko/xcodebuild-tips"
+gh_edit_branch: "master"
+gh_edit_view_mode: "tree"
+
+plugins:
+  - jekyll-seo-tag
+
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
